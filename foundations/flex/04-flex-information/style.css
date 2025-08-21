@@ -26,3 +26,9 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
