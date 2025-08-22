@@ -57,3 +57,7 @@ ul {
   padding: 0;
   gap: 16px
 }
+
+.footer {
+  background: #eeeeee;
+}
