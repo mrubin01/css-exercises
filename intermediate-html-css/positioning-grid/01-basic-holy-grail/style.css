@@ -6,6 +6,13 @@ html {
 
 .container {
   display: grid;
+  grid-template: 50px 50px 50px 50px 50px / 50px 50px 50px 50px 50px;
+  grid-template-areas: 
+  "header header header header header"
+  "sidebar sidebar nav nav nav"
+  "sidebar sidebar article article article"
+  "sidebar sidebar article article article"
+  "footer footer footer footer footer";
   text-align: center;
   height: 100%;
   padding: 16px;
