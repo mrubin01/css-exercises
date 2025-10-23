@@ -13,6 +13,8 @@ html {
   "sidebar sidebar article article article"
   "sidebar sidebar article article article"
   "footer footer footer footer footer";
+  padding: 16px;
+  box-sizing: border-box;
   height: 100%;
 }
 
