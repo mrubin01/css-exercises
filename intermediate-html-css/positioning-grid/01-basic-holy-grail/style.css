@@ -5,7 +5,7 @@ html {
 }
 
 .container {
-  display: grid;
+  display: inline-grid;
   grid-template: 250px 250px 250px 250px 250px / 250px 250px 250px 250px 250px;
   grid-template-areas: 
   "header header header header header"
