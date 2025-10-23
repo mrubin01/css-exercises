@@ -6,7 +6,7 @@ html {
 
 .container {
   display: inline-grid;
-  grid-template: 150px 450px/ 100px 100px 500px 100px;
+  grid-template: 100px 100px 500px 100px / 300px 900px;
   grid-template-areas: 
   "header header"
   "sidebar nav"
@@ -32,26 +32,31 @@ html {
 .header {
   background-color: #006157;
   grid-area: header;
+  text-align: center;
 }
 
 .sidebar {
   background-color: #005B94;
   grid-area: sidebar;
+  text-align: center;
 }
 
 .nav {
   background-color: #642cde;
   grid-area: nav;
+  text-align: center;
 }
 
 .article {
   background-color: #7E1DC3;
   grid-area: article;
+  text-align: center;
 }
 
 .footer {
   background-color: #393f4d;
   grid-area: footer;
+  text-align: center;
 }
 
 .article p {
