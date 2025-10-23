@@ -6,7 +6,7 @@ html {
 
 .container {
   display: grid;
-  grid-template: 500px 500px 500px 500px 500px / 500px 500px 500px 500px 500px;
+  grid-template: 250px 250px 250px 250px 250px / 250px 250px 250px 250px 250px;
   grid-template-areas: 
   "header header header header header"
   "sidebar sidebar nav nav nav"
