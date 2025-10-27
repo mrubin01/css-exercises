@@ -5,6 +5,12 @@
 
 .container {
   text-align: center;
+  display: grid;
+  grid-template: 1fr 7fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  "header header header header header"
+  "sidebar article article article article"
+  "footer footer footer footer footer";
 }
 
 .container div {
