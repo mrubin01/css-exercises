@@ -4,31 +4,11 @@
 }
 
 .container {
-  text-align: center;
   display: inline-grid;
-  grid-template: repeat(16, 1fr) / repeat(5, 1fr);
-  grid-template-areas: 
-  "header header header header header"
-  "header header header header header"
-  "sidebar nav nav nav nav"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "sidebar article article article article"
-  "footer footer footer footer footer";
-  padding: 20px 20px 20px 20px;
-  box-sizing: border-box;
-  height: 100%;
+  grid-template-columns: 1fr 4fr;
   gap: 4px;
-  border: 1px solid grey;
+  padding: 20px 20px 20px 20px;
+  height: 100%;
 }
 
 .container div {
@@ -43,7 +23,9 @@
   background-color: #393f4d;
   grid-area: header;
   display: inline-grid;
-  grid-template-rows: 50px 50px 50px 50px;
+  grid-template: 1fr / repeat(5, 1fr);
+  gap: 4px;
+  height: 100px;
 }
 
 .menu ul,
