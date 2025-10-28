@@ -28,6 +28,7 @@
   box-sizing: border-box;
   height: 100%;
   gap: 4px;
+  border: 1px solid grey;
 }
 
 .container div {
