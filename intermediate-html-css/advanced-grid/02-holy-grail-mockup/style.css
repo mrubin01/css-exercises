@@ -69,6 +69,12 @@
   font-weight: normal;
 }
 
+.side-content,
+.photo {
+  display: grid;
+  align-items: center;
+}
+
 .nav {
   background-color: #C50208;
 }
@@ -76,6 +82,12 @@
 .nav ul li {
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.nav ul {
+  display: inline-grid;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .article {
