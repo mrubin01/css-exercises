@@ -12,6 +12,14 @@
   height: 100%;
 }
 
+.container div {
+  padding: 15px;
+  font-size: 32px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+}
+
 .header {
   display: inline-grid;
   background-color: #393f4d;
