@@ -4,7 +4,7 @@
 }
 
 .container {
-  display: inline-grid;
+  display: grid;
   text-align: center;
   grid-template-columns: 1fr 4fr;
   gap: 4px;
@@ -21,7 +21,7 @@
 }
 
 .header {
-  display: inline-grid;
+  display: grid;
   background-color: #393f4d;
   grid-template-columns: 1fr 3fr;
   grid-column: 1 / 3; /* spans both columns */
@@ -92,13 +92,13 @@
 }
 
 .nav ul {
-  display: inline-grid;
+  display: grid;
   list-style-type: none;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .article {
-  display: inline-grid;
+  display: grid;
   background-color: #bccbde;
 }
 
@@ -137,5 +137,5 @@
   font-size: 13px;
   font-weight: normal;
   grid-column: 1 / 3;
-  display: inline-grid;
+  display: grid;
 }
