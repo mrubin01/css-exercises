@@ -6,7 +6,7 @@
 .container {
   text-align: center;
   display: inline-grid;
-  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+  grid-template: repeat(16, 1fr) / repeat(5, 1fr);
   grid-template-areas: 
   "header header header header header"
   "header header header header header"
