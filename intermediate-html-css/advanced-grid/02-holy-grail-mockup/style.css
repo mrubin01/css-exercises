@@ -27,8 +27,7 @@
   padding: 20px 20px 20px 20px;
   box-sizing: border-box;
   height: 100%;
-  column-gap: 1rem;
-  row-gap: 1rem;
+  gap: 4px;
 }
 
 .container div {
@@ -42,6 +41,8 @@
 .header {
   background-color: #393f4d;
   grid-area: header;
+  display: inline-grid;
+  grid-template-rows: 50px 50px 50px 50px;
 }
 
 .menu ul,
