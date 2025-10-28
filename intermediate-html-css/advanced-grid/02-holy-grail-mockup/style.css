@@ -91,9 +91,10 @@
 }
 
 .article {
+  display: inline-grid;
   background-color: #bccbde;
-  grid-area: article;
 }
+
 
 .article p {
   font-size: 18px;
@@ -106,12 +107,14 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+  height: auto;
 }
 
 .card p {
   color: black;
   font-weight: normal;
   font-size: 14px;
+  padding: 4px;
 }
 
 .card .title {
