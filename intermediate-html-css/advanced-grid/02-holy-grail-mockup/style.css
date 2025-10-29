@@ -68,7 +68,6 @@
   border-radius: 10px;
 }
 
-
 .sidebar .side-content {
   background-color: white;
   color: black;
@@ -98,10 +97,8 @@
 }
 
 .article {
-  display: grid;
   background-color: #bccbde;
 }
-
 
 .article p {
   font-size: 18px;
@@ -114,14 +111,12 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
-  height: auto;
 }
 
 .card p {
   color: black;
   font-weight: normal;
   font-size: 14px;
-  padding: 4px;
 }
 
 .card .title {
